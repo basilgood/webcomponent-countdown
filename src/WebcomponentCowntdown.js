@@ -1,11 +1,12 @@
 import { component, html } from 'haunted';
 
-function Countdown({to}) {
-  const now = +new Date();
+function Countdown({ to }) {
+  // const now = +new Date();
   // const seconds = () => ({to} * 1000);
 
   return html`
-    <h1>${now}-${to}</h1>
+    <h1>${to}</h1>
+    <div></div>
   `;
 }
 
